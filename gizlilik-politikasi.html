@@ -33,7 +33,7 @@
   <div class="box">
     <h1>Öğrenio — Gizlilik Politikası</h1>
     <p class="meta">
-      Son güncelleme: 22 Eylül 2026<br />
+      Son güncelleme: 30 Eylül 2026<br />
       Uygulama: Öğrenio (öğrenci) · Paket kimliği: <code>ai.ogrenio.student</code><br />
       İletişim: <a href="mailto:ogrenio.destek@gmail.com">ogrenio.destek@gmail.com</a>
       · Web: <a href="./index.html">Yasal ana sayfa</a>
@@ -62,6 +62,8 @@
       <li><strong>Kendi API anahtarlarınız (BYOK):</strong> OpenAI, Gemini, Groq anahtarları öncelikle cihazınızda saklanır; özelliğin çalışması için istekle sunucuya iletilebilir. Anahtarlar üçüncü taraf AI sağlayıcılarının koşullarına tabidir.</li>
       <li><strong>Cihaz izinleri:</strong> kamera (ödev / soru fotoğrafı), mikrofon (sesli soru / kayıt), fotoğraf galerisi — yalnızca siz izin verdiğinizde.</li>
       <li><strong>Abonelik / ödeme:</strong> Google Play veya Apple App Store üzerinden yapılan satın almalar mağaza hesaplarınıza bağlıdır. Ödeme kartı bilgilerinizi biz saklamayız; işlem Google / Apple tarafından yürütülür. Lisans durumu (aktif/pasif süre) uygulamada tutulabilir.</li>
+      <li><strong>Veli onayı kaydı (13 yaş altı):</strong> onayın verildiği tarih, sınıf seviyesi ve velinin isteğe bağlı olarak yazdığı e-posta adresi.</li>
+      <li><strong>Bildirimler:</strong> uygulama içinden gönderilen uygunsuz içerik bildirimleri (bildirilen metin, neden ve isteğe bağlı not) ile Sosyal bölümündeki engelleme tercihleri.</li>
       <li><strong>Teknik günlükler:</strong> hata ayıklama ve güvenilirlik için sınırlı teknik kayıtlar (ör. cihaz türü, uygulama sürümü, hata kodu).</li>
     </ul>
 
@@ -83,7 +85,7 @@
       <li><strong>AI sağlayıcıları</strong> (OpenAI, Google Gemini, Groq vb.): Sizin anahtarınız ve/veya bizim altyapımız üzerinden gönderilen içerikler ilgili sağlayıcının gizlilik politikasına tabidir.</li>
       <li><strong>Google Play Billing / Apple StoreKit:</strong> Abonelik satın alma ve yenileme.</li>
       <li><strong>Ödeme (web):</strong> Stripe veya benzeri sağlayıcılar kullanılıyorsa, kart verisi ilgili ödeme kuruluşunda işlenir.</li>
-      <li><strong>Barındırma / altyapı:</strong> Uygulama sunucuları ve dosya depolama hizmetleri (konum tercihen Türkiye / KVKK’ya uygun bölgeler).</li>
+      <li><strong>Barındırma / altyapı:</strong> Uygulama sunucusu ve veritabanı Avrupa Birliği’nde (Frankfurt, Almanya) bulunan barındırma hizmetlerinde çalışır; veriler aktarım sırasında şifrelenir (HTTPS).</li>
     </ul>
     <p>Verilerinizi satmayız. Reklam ağı ile kişiselleştirilmiş takip reklamı amacıyla veri paylaşımı yapmayız.</p>
 
@@ -94,11 +96,47 @@
       <li>Teknik günlükler: ihtiyaca göre sınırlı süre.</li>
     </ul>
 
-    <h2>6. Çocuklar ve öğrenciler</h2>
+    <h2>6. Çocukların gizliliği</h2>
     <p>
-      Uygulama eğitim amaçlıdır. 18 yaşından küçük kullanıcıların uygulamayı veli / okul
-      gözetiminde kullanması önerilir. Okul hesapları için kurumsal yönetici kuralları ayrıca uygulanabilir.
+      Öğrenio ilkokuldan liseye kadar öğrenciler için tasarlanmıştır. 18 yaşından küçük
+      kullanıcıların uygulamayı veli / okul gözetiminde kullanması önerilir. Okul hesapları için
+      kurumsal yönetici kuralları ayrıca uygulanabilir.
     </p>
+    <ul>
+      <li>
+        <strong>Veli onayı:</strong> 13 yaşından küçük öğrenciler (1–6. sınıf) uygulamayı ancak
+        velilerinin onayıyla kullanabilir. Sınıf seviyesi seçildiğinde uygulama, veliye hangi
+        bilgilerin işlendiğini anlatan bir onay ekranı gösterir; onay verilmeden kullanım başlamaz.
+      </li>
+      <li>
+        <strong>Toplanan bilgiler:</strong> çocuktan yalnızca hizmetin çalışması için gerekenler
+        alınır: ad, e-posta ile giriş bilgisi, sınıf seviyesi, ödevler ve yüklenen çalışmalar,
+        öğrenme asistanına sorulan sorular. Kamera ve mikrofon yalnızca öğrenci izin verip
+        kullandığında açılır.
+      </li>
+      <li>
+        <strong>Reklam ve satış yok:</strong> uygulamada reklam gösterilmez; çocukların verileri
+        satılmaz, reklam veya profil çıkarma amacıyla kimseyle paylaşılmaz.
+      </li>
+      <li>
+        <strong>Sosyal paylaşım:</strong> sınıf arkadaşlarıyla yazışma bölümü (Sosyal) 7. sınıftan
+        itibaren açılır; 1–6. sınıflarda kapalıdır. Açık olduğu sınıflarda akışta yalnızca ad ve
+        soyadın baş harfi görünür, her paylaşım bildirilebilir ve kullanıcılar engellenebilir.
+        Birden fazla öğrencinin bildirdiği içerik inceleme bitene kadar gizlenir.
+      </li>
+      <li>
+        <strong>Yapay zekâ cevapları:</strong> öğrenme asistanı ve tahta cevapları öğrenci seviyesine
+        uygun ve güvenli olacak biçimde yönlendirilir. Uygunsuz veya yanlış bulunan her cevap
+        uygulama içinden «Bildir» düğmesiyle bize iletilebilir ve incelenir.
+      </li>
+      <li>
+        <strong>Veli hakları:</strong> veli, çocuğunun hesabındaki bilgileri görmeyi, düzeltmeyi
+        veya silinmesini <a href="mailto:ogrenio.destek@gmail.com">ogrenio.destek@gmail.com</a>
+        adresinden isteyebilir; onayını dilediği zaman geri alabilir. Hesap ve veriler ayrıca
+        uygulamada Profil › Hesabımı sil ile de silinebilir
+        (<a href="./hesap-silme.html">Hesap ve veri silme</a>).
+      </li>
+    </ul>
 
     <h2>7. Haklarınız (KVKK)</h2>
     <p>6698 sayılı KVKK kapsamında; verilerinizin işlenip işlenmediğini öğrenme, düzeltme,
